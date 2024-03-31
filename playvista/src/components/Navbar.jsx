@@ -1,6 +1,7 @@
 import React from 'react';
 import { navLinks } from '../constants';
 import Button from './button';
+import {Link} from "react-router-dom";
 
 function Navbar() {
   return (
@@ -12,9 +13,9 @@ function Navbar() {
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px] text-white mx-4 hover:text-yellow-300`}
             >
-              <a href={`#${nav.id}`}>
+              <Link to={`/${nav.id}`}>
                 {nav.title}
-              </a>
+              </Link>
             </li>
           </div>
         ))}

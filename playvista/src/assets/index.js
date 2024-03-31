@@ -12,6 +12,11 @@ import think1 from "./think1.png";
 import build from "./build.png";
 import create from "./create.png";
 import discover from "./discover.png";
+import karnala from "./karnala.jpg";
+import krida from "./krida.jpeg";
+import sai from "./sai.jpg";
+import shuttle from "./shuttle.jpg";
+
 export{
     mainPhoto,
     football,
@@ -26,5 +31,9 @@ export{
     think1,
     build,
     create,
-    discover
+    discover,
+    karnala,
+    sai,
+    shuttle,
+    krida
 };
