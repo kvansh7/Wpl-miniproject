@@ -1,8 +1,10 @@
 
 import React from 'react';
 import { think1, create, build, discover } from '../assets';
+import Button from './button';
+import { Link } from 'react-router-dom';
 
-function Groupify() {
+function Groupify1() {
   return (
     <div className="flex flex-col">
       <h2 className="mt-10 ml-5 text-white font-sans text-4xl font-extrabold whitespace-nowrap overflow-visible">BUILD YOUR OWN SPORTS COMMUNITY</h2>
@@ -33,9 +35,15 @@ function Groupify() {
     </div>
       <img src={build} className="w-[400px] h-auto mr-[350px]" />
     </div>
-
+    <div className='flex justify-center'>
+    <Link to="/Groupify">
+      <Button text= "GROUPIFY NOW"className="font-black bg-orange-500 m-5 p-2 h-[50px] w-[150px] hover:bg-green-200">
+      </Button>
+    </Link>
+    </div>
+    
     </div>
   );
 }
 
-export default Groupify;
+export default Groupify1;

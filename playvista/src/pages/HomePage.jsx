@@ -6,7 +6,7 @@ import { mainPhoto } from '../assets';
 import Sections from '../components/sections';
 import Cards from '../components/cards';
 import Footer from '../components/Footer';
-import Groupify from '../components/Groupify';
+import Groupify1 from '../components/Groupify1';
 function HomePage() {
   return (
     <div className="bg w-full">
@@ -21,7 +21,7 @@ function HomePage() {
         <Cards />
       </div>
       <div>
-      <Groupify/>
+      <Groupify1/>
       </div>
       <Footer/>
     </div>

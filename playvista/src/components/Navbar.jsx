@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function Navbar() {
   return (
     <div className="w-full flex py-6 justify-between items-left navbar bg-gray-800">
-      <h2 className="logo">PLAYVISTA</h2>
+      <h2 className="flex justify-start ml-5 font-extrabold text-3xl text-blue-400">PLAYVISTA</h2>
       <ul className="flex justify-end items-center min-w-0">
         {navLinks.map((nav, index) => (
           <div key={nav.id} className="flex">

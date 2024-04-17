@@ -161,4 +161,12 @@
   margin: 50px;
   padding-right: 100px;
 }
+.custom-card {
+  height: 100%; /* Ensure all cards have the same height */
+}
+
+.card-wrapper {
+  background-color: #f0f0f0; /* Grayish background color */
+  padding: 10px; /* Adjust padding as needed */
+}
 

@@ -16,7 +16,9 @@ import karnala from "./karnala.jpg";
 import krida from "./krida.jpeg";
 import sai from "./sai.jpg";
 import shuttle from "./shuttle.jpg";
-
+import meetpals from "./meetpals.png";
+import diff from "./diff.png";
+import compete from "./compete.png";
 export{
     mainPhoto,
     football,
@@ -35,5 +37,8 @@ export{
     karnala,
     sai,
     shuttle,
-    krida
+    krida,
+    meetpals,
+    diff,
+    compete
 };
